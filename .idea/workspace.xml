@@ -4,6 +4,7 @@
     <list default="true" id="ead6cc1d-e907-4471-8d1e-bcaa9c2eee1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Go in Action.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Go in Action.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Hello_World.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/Hello_World.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +17,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/Hello_World.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="345">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#14#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/go/src/github.com/goinaction/code/chapter3/words/count.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -44,7 +57,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
+    <option name="x" value="55" />
     <option name="y" value="40" />
     <option name="width" value="1364" />
     <option name="height" value="780" />
@@ -103,15 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build Hello_World.go (1)">
-    <configuration name="go build Hello_World.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go-Practice" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main/Hello_World.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="go build Hello_World.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go-Practice" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -120,9 +125,18 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build Hello_World.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go-Practice" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <parameters value="&quot;file.txt&quot;" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main/Hello_World.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build Hello_World.go (1)" />
+        <item itemvalue="Go Build.go build Hello_World.go" />
         <item itemvalue="Go Build.go build Hello_World.go" />
       </list>
     </recent_temporary>
@@ -137,8 +151,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="40" width="1364" height="780" extended-state="0" />
-    <editor active="true" />
+    <frame x="55" y="40" width="1364" height="780" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -153,8 +166,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49848714" weight="0.32994187" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49621785" visible="true" weight="0.32994187" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50378215" side_tool="true" visible="true" weight="0.32994187" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49546143" visible="true" weight="0.32994187" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5045386" side_tool="true" visible="true" weight="0.32994187" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -168,10 +181,27 @@
     <entry file="file://$PROJECT_DIR$/main/main">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file:///usr/local/go/src/os/proc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/github.com/goinaction/code/chapter3/words/count.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/Hello_World.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#14#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

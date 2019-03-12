@@ -1,5 +1,9 @@
 package main
 
+/*
+Package comment
+*/
+
 import (
 	"fmt"
 	"github.com/goinaction/code/chapter3/words"
@@ -14,6 +18,7 @@ func main() {
 
 	contents, err := ioutil.ReadFile(filename)
 	if err!=nil {
+		fmt.Print("Error!")
 		fmt.Println(err)
 		return
 	}
