@@ -12,7 +12,7 @@ func main() {
 	// array of pointers
 	array4 := [5]*int{0: new(int), 1: new(int)}
 	*array4[0] = 10
-	fmt.Println(*array4[0])
+	fmt.Println(*array4[0])  // value & is address
 
 	// copy array
 	arrString1 := [3]string{"a", "b", "c"}
