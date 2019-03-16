@@ -43,4 +43,39 @@ func main() {
 
 	dur := Duration(100)
 	fmt.Println(dur)
+	fmt.Println(&dur)  // the address if dur
+	fmt.Println(*&dur)
+
+	john := usr{"john", "john@email.com"}
+	john.notify()
+	john.changeEmail("newJohn@email.com")
+	fmt.Println(john.email)
+
+	// pointer(the address) can call it
+	lily := &usr{"lily", "lily@email.com"}
+	lily.notify()
+
+	// pointer receiver
+	foley := &usr{"foley", "foley@email.com"}
+	foley.changeEmail("newFoley@email.com")
+	fmt.Println(*foley)
+
+}
+
+// method
+// value receiver
+type usr struct {
+	name string
+	email string
+}
+
+func (u usr) notify() {
+	fmt.Printf("Sending notification to %s <%s> \n", u.name, u.email)
+}
+
+// pointer receiver
+func (u *usr) changeEmail(newEmail string)  {
+	oldEmail := u.email
+	u.email = newEmail
+	fmt.Printf("Email changed from %s to %s", oldEmail, u.email)
 }
