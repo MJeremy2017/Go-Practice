@@ -8,7 +8,7 @@ import (
 
 func main()  {
 	// max number of logical processors
-	runtime.GOMAXPROCS(1)
+	runtime.GOMAXPROCS(2) // change to 2
 
 	var wg sync.WaitGroup
 	wg.Add(2)
