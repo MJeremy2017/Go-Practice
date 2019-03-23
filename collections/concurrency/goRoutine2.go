@@ -7,7 +7,6 @@ import (
 )
 
 var wg sync.WaitGroup
-
 func main() {
 	runtime.GOMAXPROCS(1)
 	wg.Add(2)

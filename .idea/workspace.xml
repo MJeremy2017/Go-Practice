@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ead6cc1d-e907-4471-8d1e-bcaa9c2eee1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/collections/concurrency/goRoutine2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/concurrency/raceConditions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/concurrency/raceConditions2.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Go in Action.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Go in Action.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/concurrency/goRoutine.go" beforeDir="false" afterPath="$PROJECT_DIR$/collections/concurrency/goRoutine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections/concurrency/goRoutine2.go" beforeDir="false" afterPath="$PROJECT_DIR$/collections/concurrency/goRoutine2.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,10 +25,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/collections/concurrency/goRoutine.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="107">
               <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
@@ -36,10 +37,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/collections/concurrency/goRoutine2.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="28">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding>
                 <element signature="e#14#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collections/concurrency/raceConditions.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#14#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/collections/concurrency/raceConditions2.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+              <folding>
+                <element signature="e#14#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,8 +115,10 @@
         <option value="$PROJECT_DIR$/collections/interface3.go" />
         <option value="$PROJECT_DIR$/collections/interface4.go" />
         <option value="$PROJECT_DIR$/collections/counter/counter.go" />
-        <option value="$PROJECT_DIR$/collections/concurrency/goRoutine2.go" />
         <option value="$PROJECT_DIR$/collections/concurrency/goRoutine.go" />
+        <option value="$PROJECT_DIR$/collections/concurrency/goRoutine2.go" />
+        <option value="$PROJECT_DIR$/collections/concurrency/raceConditions.go" />
+        <option value="$PROJECT_DIR$/collections/concurrency/raceConditions2.go" />
       </list>
     </option>
   </component>
@@ -166,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build goRoutine.go">
+  <component name="RunManager" selected="Go Build.go build raceConditions2.go">
     <configuration name="go build goRoutine2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go-Practice" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -183,37 +210,37 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build interface2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go-Practice" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/collections/interface2.go" />
+      <filePath value="$PROJECT_DIR$/main/main" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build interface3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build raceConditions2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go-Practice" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/collections/interface3.go" />
+      <filePath value="$PROJECT_DIR$/collections/concurrency/raceConditions2.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build interface4.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build raceConditions.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go-Practice" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/collections/interface4.go" />
+      <filePath value="$PROJECT_DIR$/collections/concurrency/raceConditions.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build goRoutine.go" />
+        <item itemvalue="Go Build.go build raceConditions2.go" />
+        <item itemvalue="Go Build.go build raceConditions.go" />
+        <item itemvalue="Go Build.go build main" />
         <item itemvalue="Go Build.go build goRoutine2.go" />
-        <item itemvalue="Go Build.go build interface4.go" />
-        <item itemvalue="Go Build.go build interface3.go" />
-        <item itemvalue="Go Build.go build interface2.go" />
+        <item itemvalue="Go Build.go build goRoutine.go" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +261,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32994187" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5181543" visible="true" weight="0.32994187" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -255,7 +282,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/main" />
     <entry file="file:///usr/local/go/src/os/proc.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -360,20 +386,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/main">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/concurrency/goRoutine.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/collections/concurrency/goRoutine2.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="28">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding>
             <element signature="e#14#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collections/concurrency/goRoutine.go">
+    <entry file="file:///usr/local/go/src/runtime/proc.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="145">
+          <caret line="264" column="5" selection-start-line="264" selection-start-column="5" selection-end-line="264" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/concurrency/raceConditions.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#14#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/concurrency/raceConditions2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
