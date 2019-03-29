@@ -1,0 +1,1 @@
+ERROR: 2019/03/29 10:52:24 customizedLog.go:45: Something has failed
