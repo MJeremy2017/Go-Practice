@@ -40,4 +40,7 @@ func main() {
 	fmt.Println(arrMul)
 	fmt.Println(arrMul[1])  // second row of matrix
 	fmt.Println(value)
+
+	fmt.Println("\u2713")
+	fmt.Println("\u2717")
 }
