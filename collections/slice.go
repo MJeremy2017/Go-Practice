@@ -16,8 +16,14 @@ func main()  {
 
 	source := []string{"Apple", "Orange", "Plum", "Banana", "Grape"}
 	sliceSource := source[2:3:5]
+	fmt.Println(cap(sliceSource))
+	fmt.Println(sliceSource)
+
 	// restrict capacity
 	sliceSource = source[2:3:3]
+	fmt.Println(cap(sliceSource))
+	fmt.Println(sliceSource)
+
 	sliceSource = append(sliceSource, "Kiwi")
 
 	slice6 := []int{1, 2}
