@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func maxSquare(square string) int {
 	return 0
@@ -8,5 +11,5 @@ func maxSquare(square string) int {
 
 func main() {
 	a := []string {"0111", "1101", "0111"}
-	fmt.Println(a[0][0])
+	fmt.Println(strconv.Atoi(string(a[0][0])))
 }
