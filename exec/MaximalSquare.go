@@ -12,4 +12,5 @@ func maxSquare(square string) int {
 func main() {
 	a := []string {"0111", "1101", "0111"}
 	fmt.Println(strconv.Atoi(string(a[0][0])))
+	
 }
