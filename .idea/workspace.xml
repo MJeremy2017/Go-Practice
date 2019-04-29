@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb925671-dfb6-458b-8092-56609181d91f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exec/eightQueens.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exec/questionMark.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,19 +23,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exec/eightQueens.go">
+        <entry file="file://$PROJECT_DIR$/exec/questionMark.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="448">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/collections/slice.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-530" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -58,6 +59,7 @@
         <option value="$PROJECT_DIR$/exec/correctPath.go" />
         <option value="$PROJECT_DIR$/exec/scaleBalance.go" />
         <option value="$PROJECT_DIR$/exec/eightQueens.go" />
+        <option value="$PROJECT_DIR$/exec/questionMark.go" />
       </list>
     </option>
   </component>
@@ -82,11 +84,6 @@
             <path>
               <item name="Go-Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Go-Practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Go-Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Go-Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Go-Practice" type="b2602c69:ProjectViewProjectNode" />
@@ -120,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build eightQueens.go">
+  <component name="RunManager" selected="Go Build.go build questionMark.go">
     <configuration name="go build Pentagon.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go-Practice" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -145,6 +142,14 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build questionMark.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go-Practice" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/exec/questionMark.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build scaleBalance.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go-Practice" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -155,6 +160,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build questionMark.go" />
         <item itemvalue="Go Build.go build eightQueens.go" />
         <item itemvalue="Go Build.go build scaleBalance.go" />
         <item itemvalue="Go Build.go build correctPath.go" />
@@ -166,7 +172,7 @@
     <frame x="28" y="22" width="1364" height="798" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -208,6 +214,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/collections/slice.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/eightQueens.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" column="88" selection-start-line="50" selection-start-column="88" selection-end-line="50" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exec/Pentagon.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -215,15 +231,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collections/slice.go">
+    <entry file="file://$PROJECT_DIR$/exec/questionMark.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-530" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/eightQueens.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        <state relative-caret-position="448">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
